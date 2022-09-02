@@ -1,0 +1,8 @@
+######################### Deep Graph InforMax Pretraining ######################### 
+python pretrain_deepgraphinfomax_cpmnn.py --epochs 100 --batch_size 64
+
+######################### Masking Pretraining ######################### 
+python pretrain_masking_cpmnn.py --epochs 100 --batch_size 64
+
+######################### Training Model ######################### 
+python train_pretrained_cpmnn --data_path 'data/S_dataset_modify.csv' --dataset_type 'classification'--num_folds 5 --gpu 0 --epochs 30 -- checkpoint_path <model_path>
