@@ -1,0 +1,9 @@
+Fold 0
+Fold 0
+Fold 0
+Fold 0
+Model 0 best validation auc = 0.799844 on epoch 0
+Model 0 test auc = 0.815972
+Ensemble test auc = 0.815972
+Fold 1
+Fold 0
